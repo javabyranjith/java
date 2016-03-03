@@ -15,8 +15,8 @@ import org.apache.commons.compress.compressors.CompressorStreamFactory;
  */
 public class ReadBz2File {
 
-  public static void main(String[] args) {
-    String bz2File = "testdata/fileoperations/myfile.bz2";
+  public String getBz2FileContent(String bz2File) {
+    StringBuffer result = new StringBuffer();
     CompressorInputStream compressorInputStream = null;
 
     try {
@@ -26,11 +26,13 @@ public class ReadBz2File {
 
       String line;
       while ((line = bufferedReader.readLine()) != null) {
-        System.out.println(line);
+        result.append(line + "\n");
       }
     } catch (CompressorException | IOException e) {
       e.printStackTrace();
     }
+
+    return result.toString();
   }
 
 }
