@@ -1,11 +1,11 @@
-package jbr.treemap;
+package jbr.maputil;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
-public class MyTreeMap {
+public class MyHashMap {
   public static Map<String, String> getMap1StringString() {
-    Map<String, String> map = new TreeMap<String, String>();
+    Map<String, String> map = new HashMap<String, String>();
     map.put("4", "Four");
     map.put("1", "One");
     map.put("5", "Five");
@@ -16,7 +16,7 @@ public class MyTreeMap {
   }
 
   public static Map<String, String> getMap2StringString() {
-    Map<String, String> map = new TreeMap<String, String>();
+    Map<String, String> map = new HashMap<String, String>();
     map.put("Four", "4");
     map.put("One", "1");
     map.put("Five", "5");
@@ -27,7 +27,7 @@ public class MyTreeMap {
   }
 
   public static Map<String, Integer> getMapStringInteger() {
-    Map<String, Integer> map = new TreeMap<String, Integer>();
+    Map<String, Integer> map = new HashMap<String, Integer>();
     map.put("One", 1);
     map.put("Four", 4);
     map.put("Two", 2);
@@ -38,7 +38,7 @@ public class MyTreeMap {
   }
 
   public static Map<Integer, String> getMapIntegerString() {
-    Map<Integer, String> map = new TreeMap<Integer, String>();
+    Map<Integer, String> map = new HashMap<Integer, String>();
     map.put(4, "Four");
     map.put(1, "One");
     map.put(5, "Five");
@@ -48,8 +48,8 @@ public class MyTreeMap {
     return map;
   }
 
-  public static Map<Float, String> getMapFloat1String() {
-    Map<Float, String> map = new TreeMap<Float, String>();
+  public static Map<Float, String> getMap1FloatString() {
+    Map<Float, String> map = new HashMap<Float, String>();
     map.put(4.0f, "four");
     map.put(0.0f, "zero");
     map.put(2.0f, "two");
@@ -59,8 +59,8 @@ public class MyTreeMap {
     return map;
   }
 
-  public static Map<String, String> getMapFloat2String() {
-    Map<String, String> map = new TreeMap<String, String>();
+  public static Map<String, String> getMap2FloatString() {
+    Map<String, String> map = new HashMap<String, String>();
     map.put("4.0f", "four");
     map.put("0.0f", "zero");
     map.put("2.0f", "two");
@@ -69,4 +69,6 @@ public class MyTreeMap {
 
     return map;
   }
+  
+  // TODO: Double Map
 }
