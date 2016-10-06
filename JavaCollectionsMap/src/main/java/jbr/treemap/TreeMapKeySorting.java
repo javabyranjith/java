@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class TreeMapSorting {
+public class TreeMapKeySorting {
   public static void main(String[] args) {
     System.out.println("Key=STRING");
     // default key sort is ascending, now sort key by descending using comparator
