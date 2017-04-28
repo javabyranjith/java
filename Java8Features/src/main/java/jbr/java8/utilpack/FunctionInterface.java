@@ -10,7 +10,7 @@ import jbr.java8.model.Gender;
 import jbr.java8.model.Person;
 
 /**
- * Examples of Function Interface
+ * Examples of Function Interface. It will be used when we want to return a particular type (R) for a input type (T).
  * 
  * @author Ranjith Sekar (java2ranjith@gmail.com)
  *

@@ -1,5 +1,6 @@
 package jbr.java8.model;
 
+import java.util.Map;
 import java.util.function.Function;
 
 /**
@@ -15,7 +16,7 @@ public class Person {
   private String lastname;
   private Gender gender;
   private String address;
-  private int age;
+  private Integer age;
   private int phone;
 
   public Person() {
@@ -39,11 +40,11 @@ public class Person {
     this.gender = gender;
   }
 
-  public int getAge() {
+  public Integer getAge() {
     return age;
   }
 
-  public void setAge(int age) {
+  public void setAge(Integer age) {
     this.age = age;
   }
 
@@ -80,6 +81,10 @@ public class Person {
   }
 
   public String printMe(Function<Person, String> f) {
+    return f.apply(this);
+  }
+
+  public Map<String, String> printMeMap(Function<Person, Map<String, String>> f) {
     return f.apply(this);
   }
 

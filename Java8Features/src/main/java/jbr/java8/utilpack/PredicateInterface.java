@@ -11,7 +11,8 @@ import jbr.java8.model.Person;
 import jbr.java8.model.PersonCategory;
 
 /**
- * Examples of Predicate Interface
+ * Examples of Predicate Interface. Predicate Interface will be used when we need to represent a boolean expression that
+ * will use the Object (T).
  * 
  * @author Ranjith Sekar (java2ranjith@gmail.com)
  *
