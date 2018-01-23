@@ -3,11 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jbr</groupId>
-  <artifactId>Java8Features</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
 
-  <name>Java8Features</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,4 +20,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <artifactId>java8-features</artifactId>
+  <name>java8-features</name>
 </project>
