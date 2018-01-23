@@ -1,7 +1,0 @@
-  // follows the principle of information hiding.
-
-  // The implementation details are hidden or encapsulated within the class
-
-  // encapsulate which ever changes frequently
-
-  // Do not make any variable public, unless you have a good reason.
