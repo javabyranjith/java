@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>java</groupId>
-	<artifactId>StackOverflow</artifactId>
+	<artifactId>stackoverflow</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
-	<name>StackOverflow</name>
+	<name>stackoverflow</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

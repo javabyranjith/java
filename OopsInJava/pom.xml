@@ -3,11 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jbr</groupId>
-  <artifactId>OopsInJava</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
 
-  <name>OopsInJava</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,4 +20,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <artifactId>java-oops</artifactId>
+  <name>java-oops</name>
 </project>
