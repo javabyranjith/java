@@ -3,6 +3,8 @@ package jbr.javacore.string;
 import org.junit.Assert;
 import org.junit.Test;
 
+import jbr.java.string.StringUtils;
+
 public class StringUtilsTest {
   String[] array1 = new String[] { "Ranjith", "Sekar", "Test", "User" };
   String[] array2 = new String[] { "Test", "User" };

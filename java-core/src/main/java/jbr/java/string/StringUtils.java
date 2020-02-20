@@ -1,4 +1,4 @@
-package jbr.javacore.string;
+package jbr.java.string;
 
 import java.util.ArrayList;
 import java.util.Arrays;
